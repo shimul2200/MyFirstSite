@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 99%;
+  height: 100vh;
+  background: url(IMG_20220625_120246.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.everything {
+  width: 99%;
+  height: 17vh;
+}
+.h1div {
+  font-size: 36px;
+  color: rgba(234, 241, 247, 0.88);
+  background-color: black;
+  border: orangered solid 3px;
+  border-radius: 3px;
+  border-bottom-color: rgb(134, 0, 134);
+  border-left-color: darkslateblue;
+  border-top-color: rgb(198, 9, 255);
+  border-right-color: indigo;
+  border-right-width: 3.5px;
+  border-left-width: 3.5px;
+  width: 32%;
+  height: 110px;
+  text-align: center;
+  margin: 18px 28px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: all 140ms ease-in-out 10ms;
+  float: left;
+  padding-top: 10px;
+}
+.menu {
+  width: 800px;
+  float: right;
+  height: 90px;
+  margin-top: 5vh;
+  margin-right: -30px;
+}
+ul {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  margin-right: 50px;
+  margin-top: 40px;
+}
+.main-div {
+  margin-top: 15vh;
+}
+a {
+  margin-right: 10px;
+  background-color: aliceblue;
+  color: black;
+  text-decoration: underline;
+  padding: 15px;
+  padding-top: 17px;
+  border: 2px solid black;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a:hover {
+  border: 2px solid whitesmoke;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border-bottom-color: rgb(134, 0, 134);
+  border-left-color: darkslateblue;
+  border-top-color: rgb(198, 9, 255);
+  border-right-color: indigo;
+  border-right-width: 2.5px;
+  border-left-width: 2.5px;
+}
+.home-link:hover {
+  border: 2.5px solid rgb(255, 255, 255);
+  transition: all 140ms ease-in-out 10ms;
+}
+.main-div {
+  width: 96%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 13vh;
+}
+.section {
+  width: 96%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: auto;
+}
+.first-div {
+  margin: auto;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  background-color: black;
+  height: 80vh;
+}
+.h2div {
+  font-size: 50px;
+  background-color: black;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+  color: black;
+  background-color: rgba(240, 248, 255, .96);
+  width: 42%;
+  height: 1.3em;
+  margin: 20px auto;
+  border: 2px solid white;
+  border-bottom-color: rgb(134, 0, 134);
+  border-left-color: darkslateblue;
+  border-top-color: rgb(198, 9, 255);
+  border-right-color: indigo;
+  border-right-width: 2.5px;
+  border-left-width: 2.5px;
+  border-radius: 4px;
+  padding-top: 3.5px;
+}
+p {
+  font-size: 26px;
+  line-height: 1.2em;
+  letter-spacing: .6px;
+  font-family: 'Raleway', sans-serif;
+  padding: 4px;
+  margin: 7px;
+}
+.first-div {
+  height: 102vh;
+}
+.second-section {
+  margin-top: 30px;
+  height: 148vh;
+}
+.third-section {
+  margin-top: 30px;
+  margin-bottom: 4vh;
+  padding-bottom: 40px;
+  height: 135vh;
+}
+.fourth-section {
+  height: 110vh;
+  margin-bottom: 20px;
+}
+.whole-figure {
+  float: left;
+  width: 45%;
+}
+figcaption {
+  font-size: 22px;
+  padding: 5px;
+  margin: 2px;
+  margin-left: 60px;
+}
+img {
+  width: 80%;
+  height:auto;
+  border-radius: 3px;
+  border: 2px solid orangered;
+  border-bottom-color: rgba(134, 0, 134, 0.9);
+  border-left-color: rgba(72, 61, 139, .9);
+  border-top-color: rgba(198, 9, 255, .9);
+  border-right-color: rgba(75, 0, 129, 0.9);
+  border-right-width: 3px;
+  border-left-width: 3px;
+  margin-left: 60px;
+}
+.toplink {
+  all: unset;
+  font-size: 24px;
+  position: relative;
+  bottom: -10px;
+  right: 10px;
+  color: rgba(255, 153, 0, 0.92);
+  border: 3px solid rgba(255, 80, 17, 0.8);
+  border-radius: 3px;
+  border-bottom-right-radius: 1.5px;
+  border-top-left-radius: 4.5px;
+  padding: 8px 10px;
+  float: right;
+  transition: all 160ms ease-in-out;
+}
+.toplink:hover {
+  text-decoration: underline;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  transform: matrix(1, 0, 0, 1, -8, 0);
+  padding: 8px 13px;
+}
+.figure-2{
+  width: 60%;
+}
+.figure-3 {
+  width: 58%;
+}
+.figure-4 {
+  width: 56%;
+}
